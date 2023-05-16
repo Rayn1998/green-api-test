@@ -1,0 +1,39 @@
+@use '../../../../scss/variables' as *;
+
+.contact-block {
+  height: 7.3rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  padding: 0 1.5rem;
+  box-sizing: border-box;
+  cursor: pointer;
+  
+  .contact-block__image {
+    width: 4.9rem;
+  }
+  
+  .contact-block__main-info {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1.3rem;
+    border-bottom: 0.1rem solid $grey-text;
+
+    p {
+      font-size: 1.7rem;
+      color: $white;
+    }
+
+    .contact-block__last-message {
+      color: $grey-text;
+    }
+  }
+
+  // .contact-block__time {
+  //   color: $grey-text;
+  //   font-size: 1.2rem;
+  // }
+}

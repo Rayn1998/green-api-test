@@ -1,0 +1,14 @@
+@use '../../../../scss/variables' as *;
+
+.message {
+  position: relative;
+  width: fit-content;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border-radius: 0.8rem;
+  background-color: $bg-input-opaq;
+
+  .message__text {
+    font-size: 2rem;
+  }
+}

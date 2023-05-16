@@ -1,0 +1,33 @@
+@use 'scss' as *;
+
+@use 'components/App/App.scss';
+@use 'components/Main/Main.scss';
+
+@use 'components/Header/Header.scss';
+
+// AUTH
+@use 'components/Auth/Auth.scss';
+
+// CONTACTS
+@use 'components/Contacts/Contacts.scss';
+@use 'components/Contacts/components/Search/Search.scss';
+@use 'components/Contacts/components/ListContainer/ListContainer.scss';
+@use 'components/Contacts/components/ContactBlock/ContactBlock.scss';
+
+// MESSAGE BLOCK
+@use 'components/MessageBlock/MessageBlock.scss';
+@use 'components/MessageBlock/components/MessageControl/MessageControl.scss';
+@use 'components/MessageBlock/components/MessageSection/MessageSection.scss';
+@use 'components/MessageBlock/components/Message/Message.scss';
+
+// PAGE NOT FOUND
+@use 'components/PageNotFound/PageNotFound.scss';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $white;
+  font-size: 10px;
+  font-family: 'Inter';
+}

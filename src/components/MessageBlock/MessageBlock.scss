@@ -1,0 +1,19 @@
+@use '../../scss/variables' as *;
+
+.message-block {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .message-block__refresh-icon {
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+
+    &[rotation='1'] {
+      animation-name: rotation;
+      animation-duration: 2s;
+    }
+  }
+}

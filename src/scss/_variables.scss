@@ -1,0 +1,17 @@
+$bg-color: #111b21;
+$bg-block: #202C33;
+$white: #E9EDEF;
+$red: red;
+$grey-text: #8696A0;
+$bg-input: #2a3942;
+$bg-input-opaq: rgba(42, 57, 66, 0.8);
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,15 @@
+@use '../../scss/variables' as *;
+
+.header {
+  background-color: $bg-block;
+  width: 100%;
+  height: 5.9rem;
+  padding: 1rem 1.6rem;
+  box-sizing: border-box;
+  border-right: 0.1rem solid $bg-color;
+
+  .header__acc-logo {
+    max-width: 4rem;
+    cursor: pointer;
+  }
+}

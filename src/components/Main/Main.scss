@@ -1,0 +1,9 @@
+@use '../../scss/variables' as *;
+
+.main {
+  background-color: $bg-color;
+  max-width: 144rem;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
